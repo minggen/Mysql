@@ -1,0 +1,17 @@
+yum install mysql-server -y
+
+service mysqld restart
+
+/usr/bin/mysqladmin -u root password 'root'
+
+mysql -u root -p
+
+use mysql
+
+grant all privileges on *.* to 'root'@'%' identified by 'root' ;
+
+flush privileges;
+
+vim /etc/sysconfig/iptables
+
+
