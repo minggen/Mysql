@@ -39,7 +39,7 @@ docker run --name mysql  -p 3307:3306 -e MYSQL_ROOT_PASSWORD=root
 
 > mysql -u root -p
 
-> grant all privileges on *.*  to 'root'@'%' ; 
+> `grant all privileges on *.*  to 'root'@'%' ; `
 
 > flush privileges; 
 
