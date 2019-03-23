@@ -51,5 +51,6 @@ Mysql远程连接报错：authentication plugin caching_sha2
 
 > ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root';
 
+(参考链接1)[https://blog.csdn.net/gf0515/article/details/80466213]
 
 
