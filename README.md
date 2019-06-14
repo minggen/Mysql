@@ -53,4 +53,7 @@ Mysql远程连接报错：authentication plugin caching_sha2
 
 (参考链接1)[https://blog.csdn.net/gf0515/article/details/80466213]
 
+# Windows
 
+> mysqld.exe --install
+> mysql -uroot -proot
