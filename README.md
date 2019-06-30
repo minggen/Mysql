@@ -55,6 +55,6 @@ Mysql远程连接报错：authentication plugin caching_sha2
 
 # Windows
 
-` mysqld.exe --install`
+` mysqld.exe --install  mysql`
 
 ` mysql -uroot -proot`
